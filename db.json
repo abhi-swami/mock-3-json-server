@@ -1,0 +1,60 @@
+{
+    "products": [
+      {
+        "id": "1667755893510Shoe 2",
+        "name": "Shoe 2",
+        "price": 1234,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing",
+        "delivery": "2022-11-06",
+        "image": "https://images.pexels.com/photos/19090/pexels-photo.jpg?cs=srgb&dl=pexels-web-donut-19090.jpg&fm=jpg"
+      },
+      {
+        "id": "1667758051369Shoe-1",
+        "name": "Shoe-1",
+        "price": 3000,
+        "description": "sample",
+        "delivery": "2022-11-06",
+        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b3a42f2af8c3435384ddaebd00c7c95c_9366/SEIZE_THE_STREET_SHOES_White_GA1134_01_standard.jpg"
+      },
+      {
+        "id": "1667758047602shoe1",
+        "name": "kurta",
+        "price": 890,
+        "description": "lorem ipsum",
+        "delivery": "2022-11-06",
+        "image": "https://images.pexels.com/photos/19090/pexels-photo.jpg?cs=srgb&dl=pexels-web-donut-19090.jpg&fm=jpg"
+      },
+      {
+        "id": "1667758054937Shoe-2",
+        "name": "Shoe-2",
+        "price": 5000,
+        "description": "sample-2",
+        "delivery": "2022-11-06",
+        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b3a42f2af8c3435384ddaebd00c7c95c_9366/SEIZE_THE_STREET_SHOES_White_GA1134_01_standard.jpg"
+      },
+      {
+        "id": "1667758094030shoe1",
+        "name": "kurta",
+        "price": 890,
+        "description": "lorem ipsum",
+        "delivery": "2022-11-06",
+        "image": "https://images.pexels.com/photos/19090/pexels-photo.jpg?cs=srgb&dl=pexels-web-donut-19090.jpg&fm=jpg"
+      },
+      {
+        "id": "1667758101105Shoe-2",
+        "name": "Shoe-2",
+        "price": 5000,
+        "description": "sample-2",
+        "delivery": "2022-11-06",
+        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b3a42f2af8c3435384ddaebd00c7c95c_9366/SEIZE_THE_STREET_SHOES_White_GA1134_01_standard.jpg"
+      },
+      {
+        "name": "Nike Shoes",
+        "price": 4000,
+        "description": "random products",
+        "delivery": "2023-05-26",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1492bfe1-0bd0-4697-b20b-cb41ec5b4f6b/air-max-flyknit-racer-shoes-Q9lN71.png",
+        "id": "1684778891125.9304Nike Shoes"
+      }
+    ]
+  }

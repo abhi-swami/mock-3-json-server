@@ -1,0 +1,24 @@
+{
+  "name": "mock-3-json-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhi-swami/mock-3-json-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhi-swami/mock-3-json-server/issues"
+  },
+  "homepage": "https://github.com/abhi-swami/mock-3-json-server#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
