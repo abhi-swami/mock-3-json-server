@@ -2,338 +2,255 @@
   "users": [
     {
       "id": 1,
-      "username": "Sheila",
-      "avatar": "http://dummyimage.com/126x100.png/ff4444/ffffff",
-      "email": "sdrewes0@omniture.com",
-      "password": "u9d2HCbZ"
-    },
-    {
-      "id": 2,
-      "username": "Georgiana",
-      "avatar": "http://dummyimage.com/126x100.png/dddddd/000000",
-      "email": "grisebarer1@tinypic.com",
-      "password": "FdXc6n5OqZ"
-    },
-    {
-      "id": 3,
-      "username": "Laurette",
-      "avatar": "http://dummyimage.com/202x100.png/5fa2dd/ffffff",
-      "email": "lisles2@japanpost.jp",
-      "password": "5u2l5LUVPro"
-    },
-    {
-      "id": 4,
-      "username": "Daile",
-      "avatar": "http://dummyimage.com/226x100.png/ff4444/ffffff",
-      "email": "dslora3@ox.ac.uk",
-      "password": "E8V1Oel"
-    },
-    {
-      "id": 5,
-      "username": "Val",
-      "avatar": "http://dummyimage.com/195x100.png/dddddd/000000",
-      "email": "vsulman4@last.fm",
-      "password": "PMAEkFN9p"
-    },
-    {
-      "id": 6,
-      "username": "Eulalie",
-      "avatar": "http://dummyimage.com/220x100.png/dddddd/000000",
-      "email": "eanthon5@hhs.gov",
-      "password": "iYU8jJ"
-    },
-    {
-      "id": 7,
-      "username": "Kristin",
-      "avatar": "http://dummyimage.com/194x100.png/dddddd/000000",
-      "email": "kjosefovic6@businessweek.com",
-      "password": "DiqJK7aoZDJJ"
-    },
-    {
-      "id": 8,
       "username": "Abhi",
-      "avatar": "http://dummyimage.com/194x100.png/dddddd/000000",
       "email": "abhi@gmail.com",
       "password": "1234"
     },
     {
-      "id": 9,
+      "id": 2,
       "username": "Laxmi",
-      "avatar": "http://dummyimage.com/194x100.png/dddddd/000000",
       "email": "laxmi@gmail.com",
       "password": "1234"
     },
     {
+      "id": 3,
       "username": "Ayushi",
-      "avatar": "https://images.unsplash.com/photo-1493666438817-866a91353ca9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=b616b2c5b373a80ffc9636ba24f7a4a9",
       "email": "ayushi@gmail.com",
-      "password": "1234",
-      "id": 10
+      "password": "1234"
     }
   ],
-  "forums": [
+  "transactions": [
     {
       "id": 1,
-      "question": {
-        "userAvatar": "user_avatar.png",
-        "username": "Laxmi",
-        "questionTitle": "How to sort an array in JavaScript?",
-        "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
-        "language": "JavaScript",
-        "upvotes": 9,
-        "answers": 3,
-        "postedDate": "2023-05-30"
-      },
-      "answers": [
-        {
-          "userAvatar": "user_avatar2.png",
-          "username": "JaneSmith456",
-          "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
-          "postedDate": "2023-05-31"
-        },
-        {
-          "userAvatar": "user_avatar3.png",
-          "username": "SamJohnson789",
-          "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
-          "postedDate": "2023-06-01"
-        },
-        {
-          "userAvatar": "user_avatar4.png",
-          "username": "EmilyBrownXYZ",
-          "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
-          "postedDate": "2023-06-01"
-        }
-      ]
+      "type": "Income",
+      "category": "Salary",
+      "amount": 50000,
+      "date": "2023-05-16",
+      "email": "abhi@gmail.com"
     },
     {
       "id": 2,
-      "question": {
-        "userAvatar": "user_avatar.png",
-        "username": "Laxmi",
-        "questionTitle": "Is JavaScript Hard?",
-        "questionDescription": "i am feeling diffiult please help me",
-        "language": "JavaScript",
-        "upvotes": 10,
-        "answers": 5,
-        "postedDate": "2023-05-30"
-      },
-      "answers": [
-        {
-          "userAvatar": "user_avatar2.png",
-          "username": "JaneSmith456",
-          "answerText": "start with basic..",
-          "postedDate": "2023-05-31"
-        },
-        {
-          "userAvatar": "user_avatar3.png",
-          "username": "SamJohnson789",
-          "answerText": "no it is not hard...",
-          "postedDate": "2023-06-01"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "question": {
-        "userAvatar": "user_avatar.png",
-        "username": "ashu",
-        "questionTitle": "Is Java Hard?",
-        "questionDescription": "i am feeling diffiult please help me in java",
-        "language": "JavaScript",
-        "upvotes": 100,
-        "answers": 12,
-        "postedDate": "2023-05-30"
-      },
-      "answers": [
-        {
-          "userAvatar": "user_avatar2.png",
-          "username": "JaneSmith456",
-          "answerText": "start with basic..",
-          "postedDate": "2023-05-31"
-        },
-        {
-          "userAvatar": "user_avatar3.png",
-          "username": "SamJohnson789",
-          "answerText": "no it is not hard...",
-          "postedDate": "2023-06-01"
-        }
-      ]
+      "type": "Income",
+      "category": "Gifts",
+      "amount": 1000,
+      "date": "2023-05-17",
+      "email": "abhi@gmail.com"
     },
     {
       "id": 3,
-      "question": {
-        "userAvatar": "user_avatar.png",
-        "username": "Abhi",
-        "questionTitle": "Is Paython Hard?",
-        "questionDescription": "i am feeling diffiult please help me in java",
-        "language": "Paython",
-        "upvotes": 160,
-        "answers": 53,
-        "postedDate": "2023-05-30"
-      },
-      "answers": [
-        {
-          "userAvatar": "user_avatar2.png",
-          "username": "JaneSmith456",
-          "answerText": "start with basic..",
-          "postedDate": "2023-05-31"
-        },
-        {
-          "userAvatar": "user_avatar3.png",
-          "username": "SamJohnson789",
-          "answerText": "no it is not hard...",
-          "postedDate": "2023-06-01"
-        }
-      ]
+      "type": "Income",
+      "category": "Refunds",
+      "amount": 1500,
+      "date": "2023-05-18",
+      "email": "abhi@gmail.com"
     },
     {
       "id": 4,
-      "question": {
-        "userAvatar": "user_avatar.png",
-        "username": "JohnDoe123",
-        "questionTitle": "Is Classes in Java Hard?",
-        "questionDescription": "i am feeling diffiult please help me in java",
-        "language": "Java",
-        "upvotes": 130,
-        "answers": 23,
-        "postedDate": "2023-05-30"
-      },
-      "answers": [
-        {
-          "userAvatar": "user_avatar2.png",
-          "username": "JaneSmith456",
-          "answerText": "start with basic..",
-          "postedDate": "2023-05-31"
-        },
-        {
-          "userAvatar": "user_avatar3.png",
-          "username": "SamJohnson789",
-          "answerText": "no it is not hard...",
-          "postedDate": "2023-06-01"
-        }
-      ]
+      "type": "Income",
+      "category": "Other",
+      "amount": 4500,
+      "date": "2023-05-21",
+      "email": "abhi@gmail.com"
     },
     {
       "id": 5,
-      "question": {
-        "userAvatar": "user_avatar.png",
-        "username": "Abhi",
-        "questionTitle": "Is Classes in JavaScript Hard?",
-        "questionDescription": "i am feeling diffiult please help me ",
-        "language": "JavaScript",
-        "upvotes": 12340,
-        "answers": 263,
-        "postedDate": "2023-05-30"
-      },
-      "answers": [
-        {
-          "userAvatar": "user_avatar2.png",
-          "username": "Ayushi",
-          "answerText": "start with basic..",
-          "postedDate": "2023-05-31"
-        },
-        {
-          "userAvatar": "user_avatar3.png",
-          "username": "SamJohnson789",
-          "answerText": "no it is not hard...",
-          "postedDate": "2023-06-01"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "question": {
-        "userAvatar": "user_avatar.png",
-        "username": "Abhi",
-        "questionTitle": "Is functions in Python Hard?",
-        "questionDescription": "i am feeling diffiult please help me",
-        "language": "Python",
-        "upvotes": 1340,
-        "answers": 63,
-        "postedDate": "2023-05-30"
-      },
-      "answers": [
-        {
-          "userAvatar": "user_avatar2.png",
-          "username": "JaneSmith456",
-          "answerText": "start with basic..",
-          "postedDate": "2023-05-31"
-        },
-        {
-          "userAvatar": "user_avatar3.png",
-          "username": "SamJohnson789",
-          "answerText": "no it is not hard...",
-          "postedDate": "2023-06-01"
-        }
-      ]
+      "type": "Expense",
+      "category": "Food & Drinks",
+      "amount": 700,
+      "date": "2023-05-23",
+      "email": "abhi@gmail.com"
     },
     {
       "id": 7,
-      "question": {
-        "userAvatar": "user_avatar.png",
-        "username": "Ayushi",
-        "questionTitle": "Is functions in Constructor Hard?",
-        "questionDescription": "i am feeling diffiult please help me in",
-        "language": "JavaScript",
-        "upvotes": 140,
-        "answers": 3,
-        "postedDate": "2023-05-30"
-      },
-      "answers": [
-        {
-          "userAvatar": "user_avatar2.png",
-          "username": "JaneSmith456",
-          "answerText": "start with basic..",
-          "postedDate": "2023-05-31"
-        },
-        {
-          "userAvatar": "user_avatar3.png",
-          "username": "SamJohnson789",
-          "answerText": "no it is not hard...",
-          "postedDate": "2023-06-01"
-        }
-      ]
+      "type": "Expense",
+      "category": "Housing",
+      "amount": 5000,
+      "date": "2023-06-01",
+      "email": "abhi@gmail.com"
     },
     {
       "id": 8,
-      "question": {
-        "userAvatar": "user_avatar.png",
-        "username": "Laxmi",
-        "questionTitle": "Is functions in Constructor Hard?",
-        "questionDescription": "i am feeling diffiult please help me in",
-        "language": "JavaScript",
-        "upvotes": 140,
-        "answers": 3,
-        "postedDate": "2023-05-30"
-      },
-      "answers": [
-        {
-          "userAvatar": "user_avatar2.png",
-          "username": "JaneSmith456",
-          "answerText": "start with basic..",
-          "postedDate": "2023-05-31"
-        },
-        {
-          "userAvatar": "user_avatar3.png",
-          "username": "SamJohnson789",
-          "answerText": "no it is not hard...",
-          "postedDate": "2023-06-01"
-        }
-      ]
+      "type": "Expense",
+      "category": "Bills",
+      "amount": 1200,
+      "date": "2023-06-02",
+      "email": "abhi@gmail.com"
     },
     {
-      "question": {
-        "username": "Abhi",
-        "userAvatar": "http://dummyimage.com/194x100.png/dddddd/000000",
-        "qusetionTitle": "Is Fetch requst hard",
-        "questionDescription": "I am feeling very difficulty please help",
-        "language": "JavaScirpt",
-        "upvotes": 0,
-        "answers": 0,
-        "postedDate": "2023-06-03"
-      },
-      "answers": [],
-      "id": 9
+      "id": 9,
+      "type": "Expense",
+      "category": "Vehicle & Transport",
+      "amount": 800,
+      "date": "2023-06-03",
+      "email": "abhi@gmail.com"
+    },
+    {
+      "id": 10,
+      "type": "Expense",
+      "category": "Lifestyle",
+      "amount": 2500,
+      "date": "2023-06-04",
+      "email": "abhi@gmail.com"
+    },
+    {
+      "id": 11,
+      "type": "Income",
+      "category": "Salary",
+      "amount": 70000,
+      "date": "2023-05-16",
+      "email": "ayushi@gmail.com"
+    },
+    {
+      "id": 12,
+      "type": "Income",
+      "category": "Gifts",
+      "amount": 5000,
+      "date": "2023-05-17",
+      "email": "ayushi@gmail.com"
+    },
+    {
+      "id": 13,
+      "type": "Income",
+      "category": "Refunds",
+      "amount": 3500,
+      "date": "2023-05-18",
+      "email": "ayushi@gmail.com"
+    },
+    {
+      "id": 14,
+      "type": "Income",
+      "category": "Other",
+      "amount": 5500,
+      "date": "2023-05-19",
+      "email": "ayushi@gmail.com"
+    },
+    {
+      "id": 15,
+      "type": "Expense",
+      "category": "Food & Drinks",
+      "amount": 1000,
+      "date": "2023-05-20",
+      "email": "ayushi@gmail.com"
+    },
+    {
+      "id": 16,
+      "type": "Expense",
+      "category": "Shopping",
+      "amount": 700,
+      "date": "2023-05-21",
+      "email": "ayushi@gmail.com"
+    },
+    {
+      "id": 17,
+      "type": "Expense",
+      "category": "Housing",
+      "amount": 7000,
+      "date": "2023-05-22",
+      "email": "ayushi@gmail.com"
+    },
+    {
+      "id": 18,
+      "type": "Expense",
+      "category": "Bills",
+      "amount": 2000,
+      "date": "2023-05-23",
+      "email": "ayushi@gmail.com"
+    },
+    {
+      "id": 19,
+      "type": "Expense",
+      "category": "Vehicle & Transport",
+      "amount": 20000,
+      "date": "2023-05-24",
+      "email": "ayushi@gmail.com"
+    },
+    {
+      "id": 20,
+      "type": "Expense",
+      "category": "Lifestyle",
+      "amount": 4500,
+      "date": "2023-05-25",
+      "email": "ayushi@gmail.com"
+    },
+    {
+      "id": 21,
+      "type": "Income",
+      "category": "Salary",
+      "amount": 50000,
+      "date": "2023-05-26",
+      "email": "laxmi@gmail.com"
+    },
+    {
+      "id": 22,
+      "type": "Income",
+      "category": "Gifts",
+      "amount": 1000,
+      "date": "2023-05-27",
+      "email": "laxmi@gmail.com"
+    },
+    {
+      "id": 23,
+      "type": "Income",
+      "category": "Refunds",
+      "amount": 1500,
+      "date": "2023-05-28",
+      "email": "laxmi@gmail.com"
+    },
+    {
+      "id": 24,
+      "type": "Income",
+      "category": "Other",
+      "amount": 4500,
+      "date": "2023-05-29",
+      "email": "laxmi@gmail.com"
+    },
+    {
+      "id": 25,
+      "type": "Expense",
+      "category": "Food & Drinks",
+      "amount": 700,
+      "date": "2023-05-30",
+      "email": "laxmi@gmail.com"
+    },
+    {
+      "id": 26,
+      "type": "Expense",
+      "category": "Shopping",
+      "amount": 1500,
+      "date": "2023-06-01",
+      "email": "laxmi@gmail.com"
+    },
+    {
+      "id": 27,
+      "type": "Expense",
+      "category": "Housing",
+      "amount": 5000,
+      "date": "2023-06-02",
+      "email": "laxmi@gmail.com"
+    },
+    {
+      "id": 28,
+      "type": "Expense",
+      "category": "Bills",
+      "amount": 1200,
+      "date": "2023-06-03",
+      "email": "laxmi@gmail.com"
+    },
+    {
+      "id": 29,
+      "type": "Expense",
+      "category": "Vehicle & Transport",
+      "amount": 800,
+      "date": "2023-06-04",
+      "email": "laxmi@gmail.com"
+    },
+    {
+      "id": 30,
+      "type": "Expense",
+      "category": "Lifestyle",
+      "amount": 2500,
+      "date": "2023-06-05",
+      "email": "laxmi@gmail.com"
     }
   ]
 }
